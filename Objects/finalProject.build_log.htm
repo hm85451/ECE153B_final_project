@@ -1,0 +1,97 @@
+<html>
+<body>
+<pre>
+<h1>µVision Build Log</h1>
+<h2>Tool Versions:</h2>
+IDE-Version: µVision V5.33.0.0
+Copyright (C) 2020 ARM Ltd and ARM Germany GmbH. All rights reserved.
+License Information: Haoming Chen, UCSB, LIC=----
+ 
+Tool Versions:
+Toolchain:       MDK-Lite  Version: 5.33.0.0
+Toolchain Path:  C:\Keil_v5\ARM\ARMCC\Bin
+C Compiler:      Armcc.exe V5.06 update 7 (build 960)
+Assembler:       Armasm.exe V5.06 update 7 (build 960)
+Linker/Locator:  ArmLink.exe V5.06 update 7 (build 960)
+Library Manager: ArmAr.exe V5.06 update 7 (build 960)
+Hex Converter:   FromElf.exe V5.06 update 7 (build 960)
+CPU DLL:         SARMCM3.DLL V5.33.0.0
+Dialog DLL:      DCM.DLL V1.17.3.0
+Target DLL:      STLink\ST-LINKIII-KEIL_SWO.dll V3.0.8.0
+Dialog DLL:      TCM.DLL V1.48.0.0
+ 
+<h2>Project:</h2>
+C:\Users\Haoming Chen\OneDrive\Desktop\UCSB\ECE153B\finalProject\finalProject.uvprojx
+Project File Date:  03/17/2021
+
+<h2>Output:</h2>
+*** Using Compiler 'V5.06 update 7 (build 960)', folder: 'C:\Keil_v5\ARM\ARMCC\Bin'
+Rebuild target 'Target 1'
+assembling startup_stm32l476xx.s...
+compiling SPI.c...
+compiling SysClock.c...
+compiling main.c...
+Source\DFSDM.h(7): warning:  #1-D: last line of file ends without a newline
+  #endif 
+Source\max7219.h(37): warning:  #1-D: last line of file ends without a newline
+  #endif
+Source\main.c(84): warning:  #111-D: statement is unreachable
+  	return 0;
+Source\main.c(41): warning:  #177-D: variable "aveFreqs"  was declared but never referenced
+  	int aveFreqs[bufferSize];
+Source\main.c(43): warning:  #177-D: variable "interval"  was declared but never referenced
+  	int interval = 0;
+Source\main.c: 5 warnings, 0 errors
+compiling DFSDM.c...
+Source\DFSDM.h(7): warning:  #1-D: last line of file ends without a newline
+  #endif 
+Source\DFSDM.c(71): warning:  #1-D: last line of file ends without a newline
+  }
+Source\DFSDM.c: 2 warnings, 0 errors
+compiling max7219.c...
+Source\max7219.h(37): warning:  #1-D: last line of file ends without a newline
+  #endif
+Source\max7219.c: 1 warning, 0 errors
+compiling fft2.c...
+Source\fft2.c(112): warning:  #1-D: last line of file ends without a newline
+  }
+Source\fft2.c(24): warning:  #177-D: function "print_vector"  was declared but never referenced
+  print_vector(
+Source\fft2.c: 2 warnings, 0 errors
+compiling EXTI.c...
+Source\max7219.h(37): warning:  #1-D: last line of file ends without a newline
+  #endif
+Source\EXTI.c: 1 warning, 0 errors
+compiling SysTimer.c...
+linking...
+.\Objects\finalProject.axf: Warning: L6989W: Could not apply patch sdcomp-29491-629360 to instruction VPOP     {d8-d12} at offset 0x24, instruction is within an IT block and is not the last instruction for sin_i_x.o(i.____kernel_sin$lsc).
+Program Size: Code=8884 RO-data=780 RW-data=16 ZI-data=4992  
+Finished: 0 information, 1 warning and 0 error messages.
+FromELF: creating hex file...
+".\Objects\finalProject.axf" - 0 Error(s), 12 Warning(s).
+
+<h2>Software Packages used:</h2>
+
+Package Vendor: ARM
+                http://www.keil.com/pack/ARM.CMSIS.5.7.0.pack
+                ARM.CMSIS.5.7.0
+                CMSIS (Cortex Microcontroller Software Interface Standard)
+   * Component: CORE Version: 5.4.0
+
+Package Vendor: Keil
+                http://www.keil.com/pack/Keil.STM32L4xx_DFP.2.5.0.pack
+                Keil.STM32L4xx_DFP.2.5.0
+                STMicroelectronics STM32L4 Series Device Support, Drivers and Examples
+
+<h2>Collection of Component include folders:</h2>
+  .\RTE\_Target_1
+  C:\Users\Haoming Chen\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include
+  C:\Users\Haoming Chen\AppData\Local\Arm\Packs\Keil\STM32L4xx_DFP\2.5.0\Drivers\CMSIS\Device\ST\STM32L4xx\Include
+
+<h2>Collection of Component Files used:</h2>
+
+   * Component: ARM::CMSIS:CORE:5.4.0
+Build Time Elapsed:  00:00:01
+</pre>
+</body>
+</html>
